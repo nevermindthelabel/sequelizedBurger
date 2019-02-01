@@ -1,0 +1,48 @@
+<div class="container" id="header">
+  <div class="row">
+    <div class="col-md-12">
+      <h1><i class="fas fa-bars"></i> Devour the Burgers! <i class="fas fa-bars"></i></h1>
+      <h2 class="text-center">Do you want fries and a Dr. Pepper with that?</h2>
+    </div>
+  </div>
+</div>
+<div class="container" id="background">
+  <div class="row">
+    <div class="col-md-6">
+      <h2>Burgers that you'd like to devour</h2>
+      {{#each burgers}}
+      {{#unless this.devoured}}
+      <p>{{this.burger_name}}</p>
+      <form class="update-burger">
+        <button class="btn btn-primary devour" type="submit" data-id="{{this.id}}">Devour
+          {{this.burger_name}} </button>
+      </form>
+
+      {{/unless}}
+      {{/each}}
+      <br />
+
+      <h2>Add A Burger Option</h2>
+
+      <div class="row">
+        <div class="col s12">
+          <form action="/api/burgers" method="POST">
+            <input type="text" id="name" name="burger_name" placeholder="Enter Your Burger">
+            <button type="submit" class="addBurgerButton">Add The Burger</button>
+          </form>
+        </div>
+      </div>
+
+    </div>
+    <div class="col-md-6">
+      <h2>Burgers that have already been devoured:</h2>
+      <ul>
+        {{#each burgers}}
+        {{#if this.devoured}}
+        <h5>{{this.burger_name}}</h5>
+        {{/if}}
+        {{/each}}
+      </ul>
+    </div>
+  </div>
+</div>
