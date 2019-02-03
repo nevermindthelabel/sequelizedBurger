@@ -1,22 +1,25 @@
 #background {
   padding-top: 10rem;
-  background-image: url(../img/amirali-mirhashemian-1271779-unsplash.jpg);
+  background-image: url(../img/20180309-french-fries-vicky-wasik-15-1500x1125.jpg);
   padding-bottom: 5rem;
-  /* background-repeat: repeat;
-  background-size: 300px 150px; */
+  background-repeat: no-repeat;
 }
 
 #header {
-  /* background-image: url(../img/andrew-ridley-185915-unsplash.jpg);
+  background-image: url(../img/burger.jpg);
   padding-bottom: 5rem;
-  background-repeat: no-repeat;
-  background-size: 300px 200px; */
+  background-repeat: repeat;
+  background-size: 300px 185px;
 }
 
 h1 {
   color: lime;
   text-align: center;
   text-shadow: 3px 3px #000000;
+}
+
+h2 {
+  text-shadow: 1px 1px brown;
 }
 
 #text-center {
