@@ -1,10 +1,8 @@
 # sequelizedBurger
 
-![Screenshot](https://github.com/nevermindthelabel/sequelizedBurger/blob/master/public/assets/img/sequelizedBurger.PNG 'sequelizedBurger screenshot')
+## See the project live on Heroku [here](https://stormy-chamber-92285.herokuapp.com/)
 
-See the project live on Heroku [here](https://stormy-chamber-92285.herokuapp.com/)
-
-## Goal
+### Goal
 
 In this project, our goal was to take the ORM [Burger](https://github.com/nevermindthelabel/buger) project and convert it to a [Sequelized](http://docs.sequelizejs.com/) version. My takeaway from this project was that in some ways Sequelize is much easier than a manually created ORM, but there are a places where it seemed easier to have the control of the code directly, rather than using methods from a 3rd party library.
 
