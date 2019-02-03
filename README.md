@@ -1,6 +1,6 @@
 # sequelizedBurger
 
-![Screenshot](./public/assets/img/sequelizedBurger.png?raw=true 'sequelizedBurger screenshot')
+![Screenshot](https://github.com/nevermindthelabel/sequelizedBurger/blob/master/public/assets/img/sequelizedBurger.PNG?raw=true 'sequelizedBurger screenshot')
 
 See the project live on Heroku [here](https://stormy-chamber-92285.herokuapp.com/)
 
