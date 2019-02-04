@@ -11,3 +11,9 @@ Just as with the Burger project, we used [NodeJS](https://nodejs.org/en/) for se
 If you would like to run the project locally, you will need to install NodeJS and MySQL on your machine and run `npm install`. That will go to the package.json file and install several node modules that are required for this to run properly, namely `dotenv, express, express-handlebars, and sequelize`. Create a `.env` file at the root of your project directory and enter `DATABASE_PASSWORD='your_mysql_password'`, and `HOST = '127.0.0.1'` or `'localhost'`. Then, start your server by typing `node server.js`. Personal recommendation, first install [nodemon](https://nodemon.io/) globally `npm i -g nodemon` then run the server with `nodemon server.js`. With nodemon, any changes done to the \*.js files will automatically restart the server.
 
 Once the server is running, open your browser, [chrome](https://www.google.com/chrome/) is preferred, and navigate to http://localhost:3000. Enter a burger name, sit back with some fries and a Dr. Pepper and enjoy!
+
+![image](https://user-images.githubusercontent.com/10904004/52190194-ef344c00-27fa-11e9-8a09-20277b695f62.png)
+
+The first screenshot shows a burger value entered into the burger name field, and the second one shows after the GitHub Burger has been added to the Burgers you'd like to devour section. Finally, the last one shows the burger in the Devoured section.
+
+![image](https://user-images.githubusercontent.com/10904004/52190254-59e58780-27fb-11e9-88f4-8e8fa328f4c1.png)
