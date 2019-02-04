@@ -17,3 +17,5 @@ Once the server is running, open your browser, [chrome](https://www.google.com/c
 The first screenshot shows a burger value entered into the burger name field, and the second one shows after the GitHub Burger has been added to the Burgers you'd like to devour section. Finally, the last one shows the burger in the Devoured section.
 
 ![image](https://user-images.githubusercontent.com/10904004/52190254-59e58780-27fb-11e9-88f4-8e8fa328f4c1.png)
+
+![image](https://user-images.githubusercontent.com/10904004/52190411-3111c200-27fc-11e9-9e89-ac4970e1377d.png)
