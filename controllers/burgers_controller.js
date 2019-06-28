@@ -35,8 +35,6 @@ router.put('/api/burgers/:id', (request, response) => {
       },
     )
     .then(() => {
-      // console.log(data);
-
       response.status(200).end();
     });
 });
