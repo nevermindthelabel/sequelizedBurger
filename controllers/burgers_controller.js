@@ -17,11 +17,11 @@ router.post('/api/burgers', (request, response) => {
   db.burgers.create(
     {
       burger_name: request.body.burger_name,
-    }
+    },
   ).then(() => {
     console.log(request.body);
     response.redirect('/');
-  })
+  });
 });
 
 router.put('/api/burgers/:id', (request, response) => {
@@ -38,7 +38,6 @@ router.put('/api/burgers/:id', (request, response) => {
       // console.log(data);
 
       response.status(200).end();
-
     });
 });
 module.exports = router;
